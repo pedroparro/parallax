@@ -1,0 +1,116 @@
+/*Author: Pedro Parro*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500px;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    background: #222222;
+    color: rgb(240, 13, 13);
+}
+.page-container h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    background: #222222;
+    color: #fff;
+}
+section {
+    width: 100%;
+    background-color: #333;
+}
+.page-container {
+    width: 100%;
+    max-width: 650px;
+    padding: 10px 10px;
+    margin: auto;
+    text-align: left;
+    background-color: white;
+ }
+.parallax-1 {
+    background-image: url(./apple.jpg);
+    width: 100%;
+    min-height: 400px;
+    margin-top: 100;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-2 {
+    background-image: url(./linux.jpg);
+    width: 100%;
+    min-height: 400px;
+    margin-top: 100;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-3 {
+    background-image: url(./ubuntu.jpg);
+    width: 100%;
+    min-height: 400px;
+    margin-top: 100;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page-container p {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    font-size: 15px;
+    margin: auto;
+    color: #222222;
+}
+
+footer {
+    background: rgb(78, 2, 2);
+    color: #fff;
+    min-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 20px;
+}
+footer span {
+    color: rgb(241, 226, 7);
+}
+/*MODO RESPONSIVE*/
+
+@media only screen and (max-width: 500px) { 
+
+    .page-container {
+       width: 350px;
+    }
+    footer {
+        font-size: 12px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .page-container h2 {
+        font-size: 25px;
+    }
+ }
+
+@media only screen and (min-width: 501px) and (max-width: 1024px) { 
+
+    .page-container {
+       width: 1024px;
+    }
+       
+ }
