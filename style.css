@@ -42,7 +42,6 @@ section {
     background-image: url(./apple.jpg);
     width: 100%;
     min-height: 400px;
-    margin-top: 100;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -52,7 +51,6 @@ section {
     background-image: url(./linux.jpg);
     width: 100%;
     min-height: 400px;
-    margin-top: 100;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -62,7 +60,6 @@ section {
     background-image: url(./ubuntu.jpg);
     width: 100%;
     min-height: 400px;
-    margin-top: 100;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -78,7 +75,7 @@ section {
 }
 
 footer {
-    background: rgb(78, 2, 2);
+    background: #222222;
     color: #fff;
     min-height: 50px;
     text-align: center;
